@@ -1,23 +1,23 @@
-# Student Performance AI System (Personalized Learning Data Analytics Platform)
+# Personalized Learning Data Analytics Platform
 
-[![Python](https://img.shields.io/badge/Python-3.10-blue.svg)](https://www.python.org/)
-[![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B.svg)](https://streamlit.io/)
-[![Pandas](https://img.shields.io/badge/Pandas-Data%20Analytics-150458.svg)](https://pandas.pydata.org/)
-[![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML%20Pipelines-F7931E.svg)](https://scikit-learn.org/)
+[![Data Pipeline CI](https://github.com/Naga-Sai-Bestharapalli-Kakaraparthi/Student-__Performance-__system-An-Intelligent-Academic-Analysis-System/actions/workflows/ci.yml/badge.svg)](https://github.com/Naga-Sai-Bestharapalli-Kakaraparthi/Student-__Performance-__system-An-Intelligent-Academic-Analysis-System/actions)
+![Python](https://img.shields.io/badge/Python-3.10-blue.svg)
+![Docker](https://img.shields.io/badge/Docker-Containerized-blue.svg)
+![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B.svg)
 
-An end-to-end educational analytics platform designed to ingest learner interaction metrics, predict future academic outcomes, perform risk stratification, and generate personalized intervention strategies.
+An end-to-end data processing and educational analytics platform designed to ingest raw student interaction metrics, execute automated ETL feature engineering, predict learning outcomes, and present real-time diagnostic insights via an interactive dashboard.
 
 ---
 
-## 📌 System Architecture & Pipeline Workflow
+## 📌 System Architecture & Data Flow
 
 ```text
   ┌────────────────────────┐       ┌───────────────────────┐       ┌───────────────────────┐
-  │ Interaction Dataset    │ ───►  │ Modular Feature Engine│ ───►  │ Predictive & Risk     │
-  │ (CSV/User Inputs)      │       │ (Pre-processing)      │       │ Modeling (Scikit-Learn)│
+  │  Student Interaction   │ ───►  │  Automated ETL        │ ───►  │ Predictive Risk       │
+  │  Raw Dataset (CSV)     │       │  Transformation Engine│       │  Modeling (Scikit)    │
   └────────────────────────┘       └───────────────────────┘       └───────────────────────┘
                                                                                │
   ┌────────────────────────┐       ┌───────────────────────┐                   │
-  │ Streamlit Analytics UI │ ◄───  │ Personalized Dynamic  │ ◄─────────────────┘
-  │ Dashboard              │       │ Study Plan Engine     │     (Advisory Insights)
+  │ Streamlit Analytics UI │ ◄───  │ Dynamic Intervention  │ ◄─────────────────┘
+  │ Dashboard              │       │ Study Plan Engine     │     (Risk Stratification)
   └────────────────────────┘       └───────────────────────┘
